@@ -34,7 +34,7 @@ Copy contents of `.env-example` file to `.env` and change values as needed.
 APP_NAME=node-kibana-app
 PORT=9000
 IP=127.0.0.1
-LOGS_DIR_BASE_PATH=/absolute/path/to/your/app/logs/directory
+LOGS_DIR_BASE_PATH=/absolute/path/to/your/logs/directory
 ```
 
 -   `APP_NAME`: A suitable name for your app
