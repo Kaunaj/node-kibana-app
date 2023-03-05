@@ -18,6 +18,8 @@ Here are the links I used for installing the dependencies:
 -   [Kibana from archive](https://www.elastic.co/guide/en/kibana/current/install.html)
 -   [Logstash from available binaries](https://www.elastic.co/downloads/logstash)
 
+Run the following commands to clone the repo and install its dependencies.
+
 ```sh
 git clone git@github.com:Kaunaj/node-kibana-app.git
 cd node-kibana-app
@@ -114,4 +116,7 @@ cd /path/to/node-kibana-app
 node server.js
 ```
 
-Now, on hitting the APIs in the app via Postman, you should be able to view the logs being pushed to the Kibana dashboard.
+Now, on hitting the APIs in the app via Postman, you should be able to view the logs being pushed to the Kibana dashboard. By default, the logs are pushed to the data stream `logs-generic-default` for which you will need to add a data view on the dashboard.
+
+The image below shows some sample logs in the dashboard.
+![Kibana Dashboard View](https://user-images.githubusercontent.com/27547933/222968991-3b7c6c08-80e0-4023-9aea-d00c2206b281.png)
